@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 375px;
+    margin: 0 auto;
+    border: 1px solid black;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.oldagram-logo-and-user-picture-container {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-bottom: 1px solid #c6c6c6;
+    padding: 16px 16px 17px 15px;
+}
+
+.profile-picture {
+    width: 33px;
+    height: 33px;
+    object-fit: cover;
+    border-radius: 19px;
+}
+
+.logo-image {
+    height: 35px;
+}
+
+.post-header {
+    display: flex;
+}
+
+.post-container .post-header{
+    gap: 10px;
+    margin: 10px;
+    /* border: 1px solid orange; */
+}
+
+.acc-name-inside-post{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.acc-location-inside-post{
+    font-size: 12px;
+}
+
+.name-and-location-mini-container{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.post-image-container{
+    width: 375px;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    padding-bottom: 0;
+    /* border: 1px solid purple; */
+}
+.post-icons {
+    height: 22px;
+
+}
+
+.boldened-text {
+    font-weight: 700;
+}
+
+.likes-and-post-caption-container {
+    /* border: 1px solid green; */
+    margin: 21px 10px 16px;
+    margin-bottom: 0px;
+}
+
+.post-buttons-container,
+.post-like-count {
+
+    margin-bottom: 12px;
+    /* border: 1px solid greenyellow; */
+}
+
+
+.post-buttons-container{
+    display: flex;
+    gap: 10px;
+}
+
+.post-like-count,
+.post-description {
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+
+hr {
+    width: 373px;
+    margin-top: 16px;
+    margin-left:-10px;
+    margin-bottom: 0;
+    border: 1px solid #c6c6c6;
+}
+
+.post-container{
+    display: flex;
+    flex-direction: column;
+}
